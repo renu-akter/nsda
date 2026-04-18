@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Renu Akter Suity</title>
+    <meta name="description" content="Contact Renu Akter Suity - Get in touch for web development services. Phone, email, form with validation, Google Maps.">
+    <meta name="keywords" content="contact, web developer, form, phone, email, Renu Akter Suity">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/custom.css">
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a href="../index.html" class="navbar-brand">Renu Akter Suity</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li><a href="../index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="service.html" class="nav-link">Service</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Hero -->
+    <section class="bg-info text-white py-5 text-center">
+        <div class="container">
+            <h1 class="display-4">Get In Touch</h1>
+            <p class="lead">Ready to start your next project? Let's talk!</p>
+        </div>
+    </section>
+
+    <!-- Direct Contact Information Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <h3 class="mb-4"><i class="fas fa-address-book me-3 text-primary"></i>Contact Information</h3>
+                    <div class="contact-item mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-phone fs-4 text-success me-3"></i>
+                            <div>
+                                <h6 class="mb-0">Phone</h6>
+                                <p class="text-muted mb-0 fw-semibold">+1 (555) 123-4567</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-item mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-envelope fs-4 text-danger me-3"></i>
+                            <div>
+                                <h6 class="mb-0">Email</h6>
+                                <p class="text-muted mb-0 fw-semibold">renu@example.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-item mb-4">
+                        <div class="d-flex align-items-center">
+                            <i class="fas fa-map-marker-alt fs-4 text-warning me-3"></i>
+                            <div>
+                                <h6 class="mb-0">Location</h6>
+                                <p class="text-muted mb-0 fw-semibold">Dhaka, Bangladesh</p>
+                                <small class="text-muted">Remote work worldwide</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <h6>Social Links</h6>
+                        <div>
+                            <a href="https://linkedin.com" class="text-primary me-3 fs-4" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://github.com" class="text-dark me-3 fs-4" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://twitter.com" class="text-info fs-4" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form Section -->
+                <div class="col-lg-8">
+                    <h3 class="mb-4">Send a Message</h3>
+                    <form class="contact-form needs-validation" novalidate>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <label for="name" class="form-label">Full Name <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="name" name="name" required minlength="2">
+                                <div class="invalid-feedback">Name must be at least 2 characters.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <div class="invalid-feedback">Please provide a valid email.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="phone" class="form-label">Phone <span class="text-danger">*</span></label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required minlength="10">
+                                <div class="invalid-feedback">Phone must be at least 10 digits.</div>
+                            </div>
+                            <div class="col-md-6">
+                                <label for="address" class="form-label">Address <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control" id="address" name="address" required minlength="5">
+                                <div class="invalid-feedback">Address must be at least 5 characters.</div>
+                            </div>
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message <span class="text-danger">*</span></label>
+                                <textarea class="form-control" id="message" name="message" rows="5" required minlength="10"></textarea>
+                                <div class="invalid-feedback">Message must be at least 10 characters.</div>
+                            </div>
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary btn-lg px-5">
+                                    <i class="fas fa-paper-plane me-2"></i>Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google MAP API Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2><i class="fas fa-map-marked-alt text-danger me-3"></i>Location</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="rounded shadow overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.682!2d90.4118!3d23.8103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0f8d5e!2sDhaka!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Start -->
+    <footer class="bg-dark text-white text-center py-4 mt-auto">
+        <div class="container">
+            <p class="mb-2">
+                © 2024 Renu Akter Suity. All rights reserved. | 
+                <span id="datetime"></span>
+            </p>
+            <div>
+                <a href="https://facebook.com" class="text-white me-3 fs-4" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" class="text-white me-3 fs-4" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com" class="text-white me-3 fs-4" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://linkedin.com" class="text-white fs-4" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <script src="../js/custom.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+</body>
+</html>
+
